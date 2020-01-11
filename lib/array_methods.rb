@@ -27,4 +27,5 @@ def find_element_index(array, value_to_find)
   nil 
 end 
 
-find_element_index
+numbers = [1, 3, 5]
+find_element_index(numbers, 3)
