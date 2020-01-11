@@ -29,4 +29,4 @@ def find_element_index(array, value_to_find)
 end 
 
 numbers = [1, 3, 5]
-find_element_index(numbers, 3)
+p find_element_index(numbers, 3)
