@@ -51,3 +51,4 @@ end
 numbers = [1, 3, 5]
 p find_element_index(numbers, 3)
 p find_max_value(numbers)
+p find_min_value(numbers)
