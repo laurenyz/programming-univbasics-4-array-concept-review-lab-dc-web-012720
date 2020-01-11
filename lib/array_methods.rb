@@ -44,8 +44,8 @@ def find_min_value(array)
     if array[index] < min
       min = array[index]
     end
-    min
   end
+  min
 end  
   
 numbers = [1, 3, 5]
