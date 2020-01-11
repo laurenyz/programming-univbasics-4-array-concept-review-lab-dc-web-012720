@@ -38,6 +38,14 @@ max = array[0]
 max 
 end
 
+def find_min_value(array)
+  min = array[0]
+  array.length.times do |index|
+    if array[index] < min
+      min = array[index]
+    end
+    min
+  end
 numbers = [1, 3, 5]
 p find_element_index(numbers, 3)
 p find_max_value(numbers)
