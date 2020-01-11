@@ -35,7 +35,7 @@ max = array[0]
     max = array[index]
     end  
   end
-
+max 
 end
 
 numbers = [1, 3, 5]
