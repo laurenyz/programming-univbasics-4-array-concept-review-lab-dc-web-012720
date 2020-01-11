@@ -28,5 +28,16 @@ def find_element_index(array, value_to_find)
   nil 
 end 
 
+def find_max_value(array)
+max = array[0]
+  array.length.times do |index|
+    if array[index] > max
+    return array[index]
+    end  
+  end
+
+end
+
 numbers = [1, 3, 5]
 p find_element_index(numbers, 3)
+p find_max_value(numbers)
